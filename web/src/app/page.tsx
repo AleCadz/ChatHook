@@ -33,7 +33,7 @@ const Home: () => JSX.Element = (): JSX.Element => {
 
   return (
     <div className="w-screen h-screen flex items-center justify-center">
-      <div className="flex flex-col w-3/4 h-3/4 bg-slate-600">
+      <div className="flex flex-col w-3/4 h-3/4 bg-slate-600 overflow-auto">
         <div className="flex flex-col gap-2 mx-5 mt-2">
           {msgs.map((msg, index) => (
             <div key={index} className="bg-white p-2 rounded">
